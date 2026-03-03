@@ -1,0 +1,77 @@
+
+> lojinha-premium@0.1.0 lint
+> next lint
+
+
+./src/app/admin/dashboard/page.tsx
+58:51  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/admin/products/actions.ts
+32:12  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+36:29  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+48:47  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+63:12  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+74:59  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+90:12  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/admin/products/page.tsx
+11:44  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+86:32  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+454:41  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/admin/settings/actions.ts
+9:7  Error: 'SettingsSchema' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+27:14  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+28:13  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+46:35  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+47:27  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+51:27  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+72:47  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+73:11  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/admin/settings/page.tsx
+5:15  Error: 'SettingsIcon' is defined but never used.  @typescript-eslint/no-unused-vars
+42:41  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/auth/[...nextauth]/route.ts
+20:52  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+21:17  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+33:29  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+35:32  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+54:26  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/products/route.ts
+24:12  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/upload/route.ts
+22:14  Error: 'err' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/layout.tsx
+13:25  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+14:31  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+28:34  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/page.tsx
+3:8  Error: 'FeaturedProduct' is defined but never used.  @typescript-eslint/no-unused-vars
+14:34  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+15:33  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+17:45  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+18:51  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+19:47  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+26:57  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+101:65  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/components/FeaturedProduct.tsx
+55:13  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+55:35  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+
+./src/components/FeaturedSlider.tsx
+35:6  Warning: React Hook useEffect has a missing dependency: 'nextSlide'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./src/components/ProductCard.tsx
+5:35  Error: 'Layers' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/ProductDetailsModal.tsx
+5:13  Error: 'ShoppingCart' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
